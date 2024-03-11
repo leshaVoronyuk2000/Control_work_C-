@@ -19,5 +19,6 @@ String[] changedArray(String[] arr){
         }
     }
     return res;
-
 }
+
+String[] words = {"dog","hello","believe","hi","1","cat","sometimes","210000"};
