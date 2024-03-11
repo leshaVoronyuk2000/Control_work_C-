@@ -22,3 +22,6 @@ String[] changedArray(String[] arr){
 }
 
 String[] words = {"dog","hello","believe","hi","1","cat","sometimes","210000"};
+
+Console.WriteLine("{0}", string.Join(" ", words));
+Console.WriteLine("{0}", string.Join(" ",changedArray(words)));
