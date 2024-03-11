@@ -12,6 +12,12 @@ String[] changedArray(String[] arr){
     String[] res = new String[newLength];
     int j = 0;
 
-    
+    for(int i = 0;i < arr.Length;i++){
+        if(arr[i].Length <= 3){
+            res[j] = arr[i];
+            j = j + 1;
+        }
+    }
+    return res;
 
 }
