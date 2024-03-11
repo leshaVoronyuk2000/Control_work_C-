@@ -1,6 +1,6 @@
 # Control_work_C#
 
-1. Cоздаем функцию changedArray c параметром String[] arr, которая возвращает String[] arr;
+1. Cоздаем функцию changedArray c параметром String[] arr, которая возвращает массив типа String[] ;
 2. В функции changedArray cоздаём переменную int newLength = 0, которая будет хранить длину нового массива;
 3. Создаем первый цикл в ChangedArray, в котором наращиваем переменную newLength, если выполняется условие внутри цикла;
 4. Создаем новый массив String[] res c длинной newLength и переменную int j = 0;
